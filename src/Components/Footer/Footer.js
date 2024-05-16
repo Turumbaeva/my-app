@@ -1,10 +1,9 @@
 import './Footer.css';
-
 function Footer() {
   return (
-    <>
-      Footer
-    </>
+    <Footer>
+       Все права защищены &copy;
+    </Footer>
   );
 }
 

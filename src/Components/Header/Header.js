@@ -2,9 +2,12 @@ import './Header.css';
 
 function Header() {
   return (
-    <>
-      Header
-    </>
+    <header>
+      <div>
+        <span className='logo'>House Staff</span>
+      </div>
+      <div className='presentation'></div>
+    </header>
   );
 }
 
