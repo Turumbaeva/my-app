@@ -4,10 +4,10 @@ function Header() {
   return (
     <header>
       <div>
-        <span className='logo'>House Staff</span>
+        <span className='logo'>Car Toyota</span>
       </div>
       <div className='presentation'></div>
-    </header>
+  </header>
   );
 }
 

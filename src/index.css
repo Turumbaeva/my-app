@@ -27,8 +27,38 @@ header  .logo{
 }
 header  .presentation{
 	margin: 50px 0;
-	background: url('./img/Toyota\ C-HR\ _\ GR\ Sport.jpeg');
+	background: url('./img/Toyota\ C-HR\ _\ GR\ Sport.jpeg') no-repeat;
 	width: 100%;
 	height: 500px;
-	
+	background-size: cover;
+	background-position: center center ;
+	background-blend-mode: multiply;
+	background-color: #bcbcbc;
+	position: relative;
+
+
 }
+header .presentation::after{
+  content: 'The best machines for you';
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+
+
+}
+header .presentation::before{
+	content: 'at low prices';
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	width: 300px;
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+  
+  
+  }
