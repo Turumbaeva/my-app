@@ -25,6 +25,24 @@ header  .logo{
 	font-weight: 600;
 	font-size: 20px;
 }
+header ul.nav{
+	float: right;
+	list-style: none;
+}
+header ul.nav li{
+	display: inline;
+	margin-left: 25px;
+	cursor: pointer;
+	transition: opacity 500ms ease;
+
+}
+header ul.nav li:hover{
+	opacity: 0.5;
+
+}
+
+
+
 header  .presentation{
 	margin: 50px 0;
 	background: url('./img/Toyota\ C-HR\ _\ GR\ Sport.jpeg') no-repeat;
@@ -39,7 +57,7 @@ header  .presentation{
 
 }
 header .presentation::after{
-  content: 'The best machines for you';
+  content: 'Лучшие машины для вас';
   position: absolute;
   top: 100px;
   left: 50px;
@@ -51,14 +69,20 @@ header .presentation::after{
 
 }
 header .presentation::before{
-	content: 'at low prices';
+	content: 'по низким ценам';
 	position: absolute;
-	top: 100px;
+	top: 250px;
 	left: 50px;
 	width: 300px;
-	font-size: 40px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 300;
 	color: #fff;
   
   
+  }
+  footer {
+	text-align: center;
+	margin-top: 100px;
+
+
   }
