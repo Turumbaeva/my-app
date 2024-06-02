@@ -6,9 +6,16 @@ function Header() {
       <div>
         <span className='logo'>Car Toyota</span>
         <ul className='nav'>
+        <li>Home</li>
+          <li>About</li>
+          <li>Delivery</li>
+          <li>Contacts</li>
+
+          
           <li>Про нас </li>
           <li>Контакты</li>
           <li>Кабинет</li>
+          
         </ul>
       </div>
       <div className='presentation'></div>
